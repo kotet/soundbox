@@ -1,0 +1,35 @@
+	html {
+		height:100%;
+		background-color: navy;
+	}
+	body {
+		min-height: calc(100% - 10px);
+		margin: 5px;
+		padding: 2px;
+		border: solid 1px black;
+		border-radius: 5px;
+	}
+	.inputwrapper {
+		align-content: center;
+	}
+	input {
+		width: 100%;
+		margin-bottom:  2px;
+		border: solid 1px black;
+	}
+	button {
+		background: white;
+		border: solid 1px black;
+	}
+	#load {
+		width: calc(70% - 5px);
+		margin-right: 5px;
+	}
+	#all {
+		width: calc(30% - 5px);
+		margin-right: 0;
+	}
+	audio {
+		width: 100%;
+		margin-top: 10px;
+	}
